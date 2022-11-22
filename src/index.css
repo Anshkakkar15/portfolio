@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: 'Signika', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.color {
+  color: pink;
+}
+
+.color-bg {
+  background-color: rgb(247, 250, 252);
+}
+
+code {
+  font-family: 'Signika', sans-serif;
+}
+
+.button {
+  color: white;
+}
+
+.cardHover:hover {
+  transition: .5s all;
+  transform: scale(1.05) translateZ(0px)
+}
+
+.logo {
+  border-radius: 50%;
+  border: 3px solid pink;
+  background-color: white;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.form {
+  height: 45px;
+}
+
+.message {
+  height: 60px;
+}

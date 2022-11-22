@@ -1,0 +1,31 @@
+.navbar {
+    background: rgb(247, 250, 252);
+    border-bottom-width: 1px;
+    border-color: rgb(235, 244, 255);
+}
+
+.logo {
+    border-radius: 50%;
+    border: 3px solid pink;
+    background-color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* .navActive::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    bottom:20px;
+    background-color: pink;
+} */
+.navWidth {
+    width: 50%;
+}
+
+@media screen and (max-width: 570px) {
+    .navWidth {
+        width: 100%;
+    }
+}

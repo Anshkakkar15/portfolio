@@ -1,0 +1,23 @@
+.about {
+
+    width: 50%;
+}
+
+@media screen and (max-width: 570px) {
+    .about {
+        width: 100%;
+    }
+}
+
+.button {
+    color: white;
+    background-color: rgb(237, 100, 166);
+    border-radius: 25px;
+    padding: 13px 35px;
+    border: rgb(237, 100, 166);
+    transition: .2s linear;
+}
+
+.button:hover {
+    transform: scale(1.05) translateZ(0px)
+}
