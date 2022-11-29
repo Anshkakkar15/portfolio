@@ -7,14 +7,14 @@ export const contacType = [
   },
   {
     id: 2,
-    title: "Linkedin",
-    description: "Available",
+    title: "LinkedIn",
+    description: "Follow me on linkedIn",
     image: require("../../assets/images/speed.png"),
   },
   {
     id: 3,
     title: "Mail",
-    description: "Currently not available",
+    description: "Kakkaransh40@gmail.com",
     image: require("../../assets/images/speed.png"),
   },
 ];
