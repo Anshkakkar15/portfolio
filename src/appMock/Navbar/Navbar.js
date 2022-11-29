@@ -6,7 +6,7 @@ export const Navigation = [
   },
   {
     id: 2,
-    router: "Projects",
+    router: "Project",
     link: "/project",
   },
   {
